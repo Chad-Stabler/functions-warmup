@@ -17,15 +17,15 @@ const benny = {
 console.log(`${benny.name} ${benny.age}`);
 // Using dot notation, console.log the name and age of Benny
 
-console.log("============ Question 4 ============")
+console.log(benny.breeds[0]);
 // Using dot notation, console.log any one of Benny's breeds
 
-console.log("============ Question 5 ============")
+console.log(whisper('DoGgY'));
 // Add code to the whisper function so that it takes whatever string is given to it
 // and returns an all lower case version
 
 function whisper(word){
-  // Your code here
+  return word.toLowerCase();// Your code here
 }
 
 console.log(`this should print true: ${whisper('Hello') === 'hello'}`)
@@ -49,12 +49,12 @@ const dogs = [{
   age: 4,
   breeds: ['Unknown Mix']
 }]
-console.log("============ BONUS -- 1 ============")
+console.log(dogs[0].name, dogs[1].name, dogs[2].name);
 // Using index values and dot notation, console.log each dog's name
 
-console.log("============ BONUS -- 2 ============")
+console.log(dogs[0].breeds[0], dogs[1].breeds[0], dogs[2].breeds[0]);
 // Using index values and dot notation, console.log the first breed of each dog
 
-console.log("============ BONUS -- 3 ============")
+console.log(`${dogs[0].name} is ${dogs[0].age} years old`)
 // Using template literals, print the following string
 // Benny is 6 years old
