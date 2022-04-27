@@ -1,9 +1,10 @@
 const colors = ['red', 'blue', 'green', 'yellow']
 
-console.log("============ Question 1 ============")
+console.log(colors[1]);
 // Using its index value in colors, console.log 'blue'
 
-console.log("============ Question 2 ============")
+colors.push('purple');
+console.log(colors[4]);
 // add the value 'purple' to the end of the colors array
 // console.log the result
 
@@ -13,7 +14,7 @@ const benny = {
   breeds: ['Terrier', 'Chihauhau', 'Pekingese']
 }
 
-console.log("============ Question 3 ============")
+console.log(`${benny.name} ${benny.age}`);
 // Using dot notation, console.log the name and age of Benny
 
 console.log("============ Question 4 ============")
